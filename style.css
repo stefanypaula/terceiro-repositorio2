@@ -116,22 +116,17 @@ label {
     height: 20px;
     cursor: pointer;
 }
- 
+
 .barra {
     background-color: var(--fundo-senha);
     height: 30px;
     width: 100%;
 }
 
-.força {
+.forca {
     height: 30px;
     position: relative;
     bottom: 30px;
-}
-
-.fraca{
-    width: 25%;
-    background-color: #e71832;
 }
 
 .parametro-senha-textos {
@@ -139,14 +134,21 @@ label {
     justify-content: space-between;
 }
 
+.fraca{
+    width: 25%;
+    background-color: #E71832;
+}
+
 .media {
-    background-color: #FAf408;
+    background-color: #FAF408;
     width: 50%;
 }
 
 .forte {
-    background-color: #00ff85;
+    background-color: #00FF85;
+    width: 100%;
 }
+
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
